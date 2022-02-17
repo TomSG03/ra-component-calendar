@@ -13,7 +13,7 @@ jobs:
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
       - run:
-          name: Run build
+          name: Build
           command: npm run build
       # - run:
       #     name: Run eslint
