@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/TomSG03/ra-component-calendar/static/css/main.445f8757.css",
-    "main.js": "/TomSG03/ra-component-calendar/static/js/main.98a399a3.js",
-    "index.html": "/TomSG03/ra-component-calendar/index.html",
-    "main.445f8757.css.map": "/TomSG03/ra-component-calendar/static/css/main.445f8757.css.map",
-    "main.98a399a3.js.map": "/TomSG03/ra-component-calendar/static/js/main.98a399a3.js.map"
+    "main.css": "/ra-component-calendar/static/css/main.445f8757.css",
+    "main.js": "/ra-component-calendar/static/js/main.98a399a3.js",
+    "index.html": "/ra-component-calendar/index.html",
+    "main.445f8757.css.map": "/ra-component-calendar/static/css/main.445f8757.css.map",
+    "main.98a399a3.js.map": "/ra-component-calendar/static/js/main.98a399a3.js.map"
   },
   "entrypoints": [
     "static/css/main.445f8757.css",
