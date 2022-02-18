@@ -26,7 +26,7 @@ function Calendar({ date }) {
     return ( <tr key={row}>{
       e.map((n, col) => {
         return (
-          <td key={row + col} className = {whatClassName(n, date.date, col)}>{n.day}</td>
+          <td key={n.id} className = {whatClassName(n, date.date, col)}>{n.day}</td>
         )
       })}  
     </tr>
