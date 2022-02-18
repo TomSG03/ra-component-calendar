@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ra-component-calendar/static/css/main.445f8757.css",
-    "main.js": "/ra-component-calendar/static/js/main.98a399a3.js",
+    "main.js": "/ra-component-calendar/static/js/main.d5286b9b.js",
     "index.html": "/ra-component-calendar/index.html",
     "main.445f8757.css.map": "/ra-component-calendar/static/css/main.445f8757.css.map",
-    "main.98a399a3.js.map": "/ra-component-calendar/static/js/main.98a399a3.js.map"
+    "main.d5286b9b.js.map": "/ra-component-calendar/static/js/main.d5286b9b.js.map"
   },
   "entrypoints": [
     "static/css/main.445f8757.css",
-    "static/js/main.98a399a3.js"
+    "static/js/main.d5286b9b.js"
   ]
 }
