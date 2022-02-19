@@ -1,16 +1,4 @@
-function whatClassName(item, date, col) {
-  let clList = '';
-  if (item.prop === 'other') {
-    clList += 'ui-datepicker-other-month';
-  }
-  if (col === 5 || col === 6) {
-      clList = 'ui-datepicker-week-end';
-  } 
-  if (item.day === date) {
-    clList = 'ui-datepicker-today';
-  }
-  return clList;
-}
+import Tbody from "./Table";
 
 function monthName(month) {
   const end = month.length - 1;
@@ -22,18 +10,7 @@ function monthName(month) {
 }
 
 function Calendar({ date }) {
-  const row = date.calendar.map((e, row) => {
-    return ( <tr key={row}>{
-      e.map((n, col) => {
-        return (
-          <td key={n.id} className = {whatClassName(n, date.date, col)}>{n.day}</td>
-        )
-      })}  
-    </tr>
-    )
-  });
-  
-  return (
+  return ( 
     <div className="ui-datepicker">
       <div className="ui-datepicker-material-header">
         <div className="ui-datepicker-material-day">{date.day}</div>
@@ -60,9 +37,7 @@ function Calendar({ date }) {
             <th scope="col" className="ui-datepicker-week-end" title="Воскресенье">Вс</th>
           </tr>
         </thead>
-        <tbody>
-          {row}
-        </tbody>
+        <Tbody table={date.calendar} />
       </table>
     </div>
   )
