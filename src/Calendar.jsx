@@ -37,7 +37,7 @@ function Calendar({ date }) {
             <th scope="col" className="ui-datepicker-week-end" title="Воскресенье">Вс</th>
           </tr>
         </thead>
-        <Tbody table={date.calendar} />
+        <Tbody table={date.calendar} today={date.date}/>
       </table>
     </div>
   )

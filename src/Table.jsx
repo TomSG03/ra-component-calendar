@@ -14,14 +14,14 @@ function whatClassName(item, date, col) {
   return clList;
 }
 
-function Tbody({ table }) {
+function Tbody({ table, today }) {
   return (
     <tbody>
       {
         table.map((e, row) => {
           return <tr key={row}>
             {e.map((n, col) => {
-              return <td key={n.id} className={whatClassName(n, table.date, col)}>{n.day}</td>
+              return <td key={n.id} className={whatClassName(n, today, col)}>{n.day}</td>
             })}
           </tr>
         })
