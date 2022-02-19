@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/ra-component-calendar/static/css/main.445f8757.css",
-    "main.js": "/ra-component-calendar/static/js/main.d55a0ad4.js",
+    "main.css": "/ra-component-calendar/static/css/main.0fe1a05c.css",
+    "main.js": "/ra-component-calendar/static/js/main.7c5b546e.js",
+    "static/js/787.f9cf6a28.chunk.js": "/ra-component-calendar/static/js/787.f9cf6a28.chunk.js",
     "index.html": "/ra-component-calendar/index.html",
-    "main.445f8757.css.map": "/ra-component-calendar/static/css/main.445f8757.css.map",
-    "main.d55a0ad4.js.map": "/ra-component-calendar/static/js/main.d55a0ad4.js.map"
+    "main.0fe1a05c.css.map": "/ra-component-calendar/static/css/main.0fe1a05c.css.map",
+    "main.7c5b546e.js.map": "/ra-component-calendar/static/js/main.7c5b546e.js.map",
+    "787.f9cf6a28.chunk.js.map": "/ra-component-calendar/static/js/787.f9cf6a28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.445f8757.css",
-    "static/js/main.d55a0ad4.js"
+    "static/css/main.0fe1a05c.css",
+    "static/js/main.7c5b546e.js"
   ]
 }
